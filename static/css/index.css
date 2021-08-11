@@ -196,6 +196,7 @@ nav ul li a:hover{
 
 h1{
     color:#FFFBFB;
+    font-size: 50px;
 }
 
 h3{
@@ -212,7 +213,7 @@ button{
     border-radius: 30px;
     outline: none;
     top:100px;
-    left:-468px;
+    left:-485px;
     transition: 0.2s;
     cursor: pointer;
 }

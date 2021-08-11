@@ -1,0 +1,101 @@
+body{
+    background-color: #26272C;
+    overflow: hidden;
+}
+
+
+
+/*Categories*/
+
+.flex-container{
+    padding: 55px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 45%;
+    margin: 0 auto;
+    justify-content:space-around;
+    align-content:center;
+}
+
+.flex-container div{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #94E0BC;
+    color: black;
+    width: 220px;
+    height: 220px;
+    line-height: 100px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 25px;
+}
+
+
+/*Navbar*/
+
+.navbar{
+    flex: 1;
+    text-align: right;
+    padding-top: 0;
+    padding-right: 30px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#FFFBFB;
+}
+
+nav ul li a:hover{
+    color: #ffde05;
+}
+
+/*Adding images*/
+
+.cars{
+    content:url(/static/images/categories/cars.gif);
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.cars:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.cartoon{
+    content:url(/static/images/categories/cartoon.gif);
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.cartoon:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.movies{
+    content: url(/static/images/categories/movies.gif);
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.movies:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.videogames{
+    content: url(/static/images/categories/videogames.gif);
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.videogames:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
