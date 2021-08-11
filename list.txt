@@ -19,7 +19,7 @@ Bungie
 Epic Games
 Valve
 -------------------------
-Disney Movies
+Movies
 -------------------------
 Toy Story
 Star Wars
@@ -32,17 +32,17 @@ Monster Inc.
 -------------------------
 Cars
 -------------------------
-BMW
-Mercedes
-Toyota
-Nissan
-JEEP
-Mercury
-Volvo
-Hummer
-Ford
-Chevrolet
-Fiat
+BMW ✓
+Mercedes ✓
+Toyota ✓
+Nissan ✓
+JEEP ✓
+Mercury ✓
+Volvo ✓
+Hummer ✓
+Ford ✓
+Chevrolet ✓
+Fiat ✓
 -------------------------
 Cartoon
 -------------------------
